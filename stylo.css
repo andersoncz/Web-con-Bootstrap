@@ -1,3 +1,13 @@
-.h2{
-   opacity: 0.5;
+.card-group .card:hover{
+transform: scale(1.0);/*Tamaño de imagen al pasar cursor*/
+transition: transform .6s;/*Tiempo de transisicon*/
+cursor: pointer;
+box-shadow: 7px 7px 20px rgba(4, 194, 53 , 0.9);
+transform: translateY(3%);/*Para cuando se pase el cursor se levamte la imagen hacia bajo*/
 }
+
+.border-verde form{
+  padding-right: 50px;
+
+}
+
